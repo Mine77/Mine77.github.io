@@ -1,0 +1,128 @@
+/*!
+ * Start Bootstrap - Portfolio Item (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.item {
+    max-height: 400px;
+}
+
+.thumbnail {
+    height: 168px;
+    cursor: pointer;
+}
+
+.carousel {
+    position: relative;
+    height: 400px;
+}
+
+.carouselphoto {
+    max-height: 400px;
+    margin: auto;
+}
+
+.h1-title {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.thin-hr {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.thumbnail-row {
+    display: flex;
+    overflow: scroll;
+}
+
+.thumbnail-row::-webkit-scrollbar {
+    display: none
+}
+
+.arrow {
+    position: absolute;
+    height: 168px;
+    z-index: 999;
+    width: 50px;
+    top: inherit;
+    bottom: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+    background-image: inherit !important;
+}
+
+.arrow-left {
+    margin-left: 12px;
+    left: inherit !important;
+}
+
+.arrow-right {
+    right: inherit !important;
+}
+
+.thin-img {
+    padding: 0;
+}
+
+.thumbnailphoto {
+    width: 700px;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 17px;
+    margin-bottom: 0;
+}
+
+.phototitle {
+    margin-bottom: 0;
+    text-align: center;
+    margin-left: 97px;
+    margin-right: 97px;
+}
+
+.photodetail {
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 77px;
+    margin-right: 77px;
+}
+
+.vertical-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.carousel-control{
+    height:340px;
+}
+.glyphicon{
+    padding-top:48px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}

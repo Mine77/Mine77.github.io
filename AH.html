@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Haichao Zhu</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/item.css">
+    </head>
+    <body id="app">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavbarCollapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Haichao Zhu</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="NavbarCollapse">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html#EXPERIENCE">Experience</a>
+                        </li>
+                        <li>
+                            <a href="index.html#PROJECTS">Projects</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="h1">Astrohat<br>
+                    <small>Haichao Zhu, Xin Xu</small>
+                    </h3>
+                    <hr class="thin-hr"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                        <div class="carousel-inner" role="listbox">
+                            <div v-for="item in items" v-bind:class="$index==0?'active':''" class="item" index="``$index``">
+                                <div v-if="item.video" class="carouselphoto">
+                                    <video style="width:100%;height:100%" controls>
+                                        <source v-bind:src="item.video" type="video/mp4">
+                                    </video>
+                                </div>
+                                <img class="carouselphoto" v-else v-bind:src="item.img" alt="...">
+                            </div>
+                        </div>
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <h4 class="phototitle">``items[select_index].title``</h4>
+                        <h5 class="photodetail">``items[select_index].detail``</h5>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <h4>Project Description</h4>
+                    <p>This device is for solving the problems for the astronomy amateur when doing astronomy observation. When observing the stars, it is always painful to looking for a specific star with a star map. Sometimes with a little distraction the star will be lost and another round of searching would be needed. Also it’s hard to adjust the telescope to aim at the stars, especially for the rookie amateurs.
+                    <h4>Implementation</h4>
+                        The mini projector on the helmet projects a virtual star map on the semi-transparent board at the front. The projector is connected to a laptop which receive the data from the IMU sensors on the helmet. Base on the IMU data, the posture of the user’s head can be figured out, so does the direction of the user’s eyesight. By adjusting the virtual star map, the star at the center of the star map can overlap on the actual star in the sky. Some related information about the star are also listed around it.
+                    </p>
+                    <h4>Related Information</h4>
+                    <p>Xin and I made this project and we have equal contribution to it.<br>
+                        This project is for a contest hosted by Microsoft.<br>
+                        We won a first prize.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row thin-box">
+                <div class="col-md-12 thin-img">
+                    <div v-for="item in items" class="col-md-3">
+                        <img class="thumbnail thumbnailphoto" v-bind:src="item.img" v-on:click="clickThumbnail($index,item)">
+                        <figcaption><h5><b>``item.title``</b></h5> </figcaption>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- Footer -->
+            <footer>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p>Copyright &copy; Haichao Zhu<br>
+                            Updated: 11/2016<br>
+                        I don't know what's gonna happen in IE. Please use Chrome. :-)</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </footer>
+        </div>
+        <script type="text/javascript">
+        var items = [
+        {
+        "img": "img/AH/AH0.png",
+        "title": "AstroHat",
+        },
+        {
+        "img": "img/AH/AH1.png",
+        "title": "Hardwares",
+        "detail": "The data from the sensors are transfered to a laptop. The projector is connected to the laptop. The star map software runs on the laptop."
+        },
+        {
+        "img": "img/AH/AH2.png",
+        "title": "Device in Using",
+        "detail": "We never get to know how it works because not so much stars are visible in Beijing urban area. It works fine on the moon and the sun though."
+        },
+        {
+        "img": "img/AH/AH3.png",
+        "title": "Telescope",
+        "detail": "By hacking the electronic star following system, the telescope can be controlled by programming."
+        }
+        ];
+        </script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/vue.min.js"></script>
+        <script src="js/item.js"></script>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Haichao Zhu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/item.css">
+</head>
+<body id="app">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#NavbarCollapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Haichao Zhu</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="NavbarCollapse">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html#EXPERIENCE">Experience</a>
+                </li>
+                <li>
+                    <a href="index.html#PROJECTS">Projects</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h3 class="h1">Smart Car and Drone<br>
+                <small>Haichao Zhu, Xin Xu</small>
+            </h3>
+            <hr class="thin-hr"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-7">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="false">
+                <div class="carousel-inner" role="listbox">
+                    <div v-for="item in items" v-bind:class="$index==0?'active':''" class="item" index="``$index``">
+                         <div v-if="item.video" class="carouselphoto">
+                            <video style="width:100%;height:100%" controls>
+                                <source v-bind:src="item.video" type="video/mp4">
+                            </video>
+                        </div>
+                        <img class="carouselphoto" v-else v-bind:src="item.img" alt="...">
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <div class="row">
+                <h4 class="phototitle">``items[select_index].title``</h4>
+                <h5 class="photodetail">``items[select_index].detail``</h5>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <h4>Project Description</h4>
+            <p>We meant to design a game base on a drone bought by the lab of my university, for a contest.<br>
+The smart car is for a contest that the fastest car wins.
+</p>
+<h4>Implementation</h4>
+            <p>The hardware parts of the Smart Car were specified by the contest and we can design the PCB and where to put them on the car. The algorithm is basically about detecting the road and use PID to control the servo and the speed, so it’s pretty fixed. The mechanical structure is important in this contest. How to lower the center of gravity is the key to this contest.<br>
+The drone already has its own flight control system on board and a receiver for the remote controller. We made a circuit to simulate the output signal of the receiver and receive our own signal from a laptop through nRF24L01 module. Thus we can realize controlling it by using our own program. By using the OpenCV to recognize hand gesture, the user can control this done in a Flappy Bird game.
+
+</p>
+            <h4>Related Information</h4>
+            <p>Xin and I made these projects and we have equal contribution to them.<br>
+Regarding the drone project, we only finished the drone hacking part. Other parts were left to others and never finished.<br>
+The Smart Car we built won the first prize.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row thin-box">
+        <div class="col-md-12 thin-img">
+            <div v-for="item in items" class="col-md-3">
+                <img class="thumbnail thumbnailphoto" v-bind:src="item.img" v-on:click="clickThumbnail($index,item)">
+                <figcaption><h5><b>``item.title``</b></h5> </figcaption>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- Footer -->
+    <footer>
+        <div class="row">
+            <div class="col-lg-12">
+                <p>Copyright &copy; Haichao Zhu<br>
+                Updated: 11/2016<br>
+                I don't know what's gonna happen in IE. Please use Chrome. :-)</p>
+            </div>
+        </div>
+        <!-- /.row -->
+    </footer>
+</div>
+<script type="text/javascript">
+    var items = [
+        {
+            "img": "img/DSC/DSC0.png",
+            "title": "The drone and The Smart Car",
+        },
+        {
+            "img": "img/DSC/DSC1.png",
+            "title": "Smart Car Structure",
+        },
+        {
+            "video": "img/DSC/DSC2.mp4",
+            "img": "img/DSC/DSC2.png",
+            "title": "Contest Video",
+        },
+        {
+            "img": "img/DSC/DSC3.png",
+            "title": "The Drone",
+        },
+        {
+            "img": "img/DSC/DSC4.png",
+            "title": "Mixed Reality Game",
+            "detail": "Flappy bird game with the drone as the bird"
+        },
+    ];
+</script>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/vue.min.js"></script>
+<script src="js/item.js"></script>
+</body>
+</html>
