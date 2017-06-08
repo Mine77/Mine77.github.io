@@ -10,6 +10,7 @@
     <title>Haichao Zhu | 朱海潮</title>
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="css/bootstrap.icon-large.min.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -57,12 +58,29 @@
             <div class="col-sm-7">
                 <p>
                     I’m trying to be a <b>Researcher</b>, an <b>Engineer</b>, a <b>Designer</b> and an <b>Entrepreneur</b>. I have been working in the field of HCI with different topics including <b>Fabrication, Wearables, Sensors and Accessibility</b>. My lifelong target is to do something that can <b>make real social impact</b> (could be research or engineering project, NPO or start-up, art or design piece) and currently I'm preparing for it.
+                    <br> About my skills, I know <b>how to make (almost) everything</b> and <b>how to evaluate</b> them. I also have some basic <b>design thinking</b>, which helps me to ask world changing questions starting with <b>"What if"</b> or <b>"Why"</b>.
                     <br>
-                    About my skills, I know <b>how to make (almost) everything</b> and <b>how to evaluate</b> them. I also have some basic <b>design thinking</b>, which helps me to ask world changing questions starting with <b>"What if"</b> or <b>"Why"</b>.
                     <br>
                 </p>
-                <a class="btn btn-primary" target="_blank" href="cv.pdf">Curriculum vitae</a>
-                <a class="btn btn-primary" target="_blank" href="http://www.haichao.red">Blog</a>
+                <div class="row">
+                    <div class="col-sm-1">
+                        <a target="_blank" href="cv.pdf" data-toggle="tooltip" data-placement="bottom" title="CV"><i class="icon-large icon-file"></i></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a target="_blank" href="mailto:haichaozhu77@gmail.com" data-toggle="tooltip" data-placement="bottom"  title="Email Me"><i class="icon-large icon-envelope"></i></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a target="_blank" href="http://www.haichao.red" data-toggle="tooltip" data-placement="bottom"  title="Blog"><i class="icon-large icon-blogger"></i></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a target="_blank" href="https://www.facebook.com/zhu.haichao" data-toggle="tooltip" data-placement="bottom"  title="Facebook"><i class="icon-large icon-facebook"></i></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <a target="_blank" href="https://twitter.com/HaichaoZ" data-toggle="tooltip" data-placement="bottom"  title="Twitter"><i class="icon-large icon-twitter"></i></a>
+                    </div>
+                </div>
+                <!-- <a class="btn btn-primary" target="_blank" href="cv.pdf">Curriculum vitae</a>
+                <a class="btn btn-primary" target="_blank" href="http://www.haichao.red">Blog</a> -->
             </div>
         </div>
         <!-- Experience -->
@@ -308,6 +326,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    </script>
 </body>
 
 </html>
