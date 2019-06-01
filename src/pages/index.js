@@ -15,7 +15,12 @@ class BlogIndex extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
         {posts.map(({ node }) => {
-            return <Post node={node} />
+            if (node.frontmatter.status === "draft") {
+                return null
+            } else {
+                return <Post node={node} />
+            }
+            
           }
         )}
         </Layout>
@@ -43,6 +48,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            status
           }
         }
       }

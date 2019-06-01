@@ -1,6 +1,7 @@
 ---
 title: "Thoughts on Governance"
 date: "2019-05-15"
+status: draft
 ---
 
 This week's CW we got a speaker Jian from [EthFans](http://ethfans.org/) talking about the governance mechanisms in blockchain systems.
