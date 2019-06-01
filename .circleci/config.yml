@@ -9,7 +9,7 @@ jobs:
       - checkout
       - run:
           name: Deploying to GitHub Pages
-          command:
+          command: |
             git config --global user.email "Mine77@users.noreply.github.com"
             git config --global user.name "Mine77"
             yarn install && yarn deploy
