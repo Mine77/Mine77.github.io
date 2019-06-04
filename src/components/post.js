@@ -9,23 +9,23 @@ class Post extends React.Component {
         const title = node.frontmatter.title || node.fields.slug
 
         return (
-            <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                <div className={postStyles.box}>
-                    <div className={postStyles.content} key={node.fields.slug}>
-                        <h3>
 
+            <div className={postStyles.box}>
+                <div className={postStyles.content} key={node.fields.slug}>
+                    <h3>
+                        <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                             {title}
-
-                        </h3>
-                        <small>{node.frontmatter.date}</small>
-                        <p
-                            dangerouslySetInnerHTML={{
-                                __html: node.frontmatter.description || node.excerpt,
-                            }}
-                        />
-                    </div>
+                        </Link>
+                    </h3>
+                    <small>{node.frontmatter.date}</small>
+                    <p
+                        dangerouslySetInnerHTML={{
+                            __html: node.frontmatter.description || node.excerpt,
+                        }}
+                    />
                 </div>
-            </Link>
+            </div>
+
         )
     }
 }
