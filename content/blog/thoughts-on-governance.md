@@ -42,9 +42,3 @@ These "great" people can then use these capitals to "buy" more votes in a govern
 It is also hard to build such a system. If this system has some rules defined by humans, then some humans could definitely figure out the rules and optimize themselves according to it. 
 
 So AI based reputation systems here would be an appealing solution. But I don't know how would that goes.
-
-## BTC will be the Anchor of Fiat
-
-* BTC is hard to be the payment itself.
-* BTC could be the anchor of fiat.
-* The government nowadays may have learned about how should the credit system works.
