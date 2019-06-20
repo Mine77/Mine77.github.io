@@ -109,4 +109,4 @@ The second problem mentioned above is how to identify the blockchains. This is n
 ## Conclusion
 
 As there are still many new blockchain systems popping up, and each of them may have very different designs, it would be very difficult to have a generic protocol that can “rule them all”, in terms of enabling interoperability between these blockchain systems. Therefore it is reasonable to make the argument that enabling interoperability for blockchains should be an application-driven process. Different approaches may be suitable for different applications in different scenarios. Once the actual use case is settled, I hope this post can help designers who are seeking interoperability to find the protocol that matches their needs the best. The discussion here does not hope to cover the full spectrum of blockchain interoperability. Comments are more than welcomed in order to make this post more comprehensive.
-* * *
+
