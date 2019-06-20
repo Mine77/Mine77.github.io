@@ -1,6 +1,7 @@
 ---
 title: "BTC as Money Anchor"
 date: "2019-05-16"
+description: ""
 ---
 
 October 2018, Satoshi Nakamoto published the Bitcoin whitepaper. In the paper he addresses the Bitcoin system as a peer to peer electronic cash system. In another word, Satoshi wanted it to be a payment system that use the token BTC as Medium of Exchange and Unit of Account. In another word, a new money.
