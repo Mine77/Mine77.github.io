@@ -5,7 +5,7 @@ description: "This is a template draft."
 status: "draft"
 ---
 
-This is a post emplate.
+This is a post template.
 
 You will not see this post on the website as its `status` is set to `draft`.
 
