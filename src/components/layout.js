@@ -18,16 +18,16 @@ class Layout extends React.Component {
                         marginLeft: 20
                     }}
                 >
-                    <Link
+                    <p
                         style={{
                             boxShadow: `none`,
                             textDecoration: `none`,
                             color: `inherit`,
+                            marginBottom: 0
                         }}
-                        to={`/`}
                     >
                         {title}
-                    </Link>
+                    </p>
                 </h2>
             )
         } else {
