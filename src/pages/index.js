@@ -4,7 +4,7 @@ import Bio from "../components/bio"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Post from "../components/post"
+import Post from "../components/postbox"
 
 class BlogIndex extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import postStyles from "./post.module.css"
+import postboxStyles from "./postbox.module.css"
 
 class Post extends React.Component {
     render() {
@@ -10,8 +10,8 @@ class Post extends React.Component {
 
         return (
 
-            <div className={postStyles.box}>
-                <div className={postStyles.content} key={node.fields.slug}>
+            <div className={postboxStyles.box}>
+                <div className={postboxStyles.content} key={node.fields.slug}>
                     <h3>
                         <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                             {title}
