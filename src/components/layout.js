@@ -13,7 +13,7 @@ class Layout extends React.Component {
             header = (
                 <h2
                     style={{
-                        marginBottom: rhythm(1.5),
+                        marginBottom: rhythm(0.5),
                         marginTop: rhythm(1.5),
                         marginLeft: 20
                     }}

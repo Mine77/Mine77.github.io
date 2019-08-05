@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Haichao Blog`,
+    title: `真好吃haichao Blog`,
     author: `Haichao Zhu`,
     email : `haichaozhu77@gmail.com`,
-    description: `The place where Haichao writes when he want.`,
+    description: `The place where 真好吃haichao writes when he want.`,
     siteUrl: `https://www.haichaozhu.com/`,
     social: {
       twitter: `@HaichaoZ`,
