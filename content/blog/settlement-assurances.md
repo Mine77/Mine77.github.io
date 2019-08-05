@@ -4,10 +4,8 @@ date: "2019-08-05"
 description: "交易结算问题的无人问津，才是导致 TPS 群魔乱舞的元凶。这篇文章翻译自 Nic Carter 的 It’s the settlement assurances, stupid。"
 ---
 
-作者：[Nic Carter](https://medium.com/@nic__carter?source=post_page---------------------------)
-
-原文：[It’s the settlement assurances, stupid](https://medium.com/@nic__carter/its-the-settlement-assurances-stupid-5dcd1c3f4e41)
-
+作者：[Nic Carter](https://medium.com/@nic__carter?source=post_page---------------------------)  
+原文：[It’s the settlement assurances, stupid](https://medium.com/@nic__carter/its-the-settlement-assurances-stupid-5dcd1c3f4e41)  
 译者：真好吃haichao
 
 ![Image: settlement-assurance-1.png](../assets/settlement-assurance/settlement-assurance-1.png)
