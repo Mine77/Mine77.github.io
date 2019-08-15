@@ -1,0 +1,22 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    align-content: center
+  }
+  
+  li {
+    float: left;
+    padding: 0 16px;
+
+  }
+  
+  li a {
+    cursor: pointer;
+  }
+
+  li a:active, a:focus {
+    outline: 0;
+    border: none;
+    -moz-outline-style: none;
+  }
