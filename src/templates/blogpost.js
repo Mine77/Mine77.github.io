@@ -7,6 +7,8 @@ import { rhythm, scale } from "../utils/typography"
 
 import "./blogpost.css"
 
+require(`katex/dist/katex.min.css`)
+
 class BlogPostTemplate extends React.Component {
     render() {
         const post = this.props.data.markdownRemark
