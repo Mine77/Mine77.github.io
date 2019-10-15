@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Haichao Blog]]></title><description><![CDATA[The place where 真好吃haichao writes when he want.]]></description><link>https://www.haichaozhu.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Oct 2019 12:23:49 GMT</lastBuildDate><item><title><![CDATA[矿业小调研]]></title><description><![CDATA[…]]></description><link>https://www.haichaozhu.com/mining-industry-research/</link><guid isPermaLink="false">https://www.haichaozhu.com/mining-industry-research/</guid><pubDate>Tue, 15 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;之前对矿业不是特别的了解，顶多算耳濡目染入了个门。这几天离职了就在家好好的把这个矿业研究了下。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Haichao Blog]]></title><description><![CDATA[The place where 真好吃haichao writes when he want.]]></description><link>https://www.haichaozhu.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 15 Oct 2019 12:34:25 GMT</lastBuildDate><item><title><![CDATA[矿业小调研]]></title><description><![CDATA[…]]></description><link>https://www.haichaozhu.com/mining-industry-research/</link><guid isPermaLink="false">https://www.haichaozhu.com/mining-industry-research/</guid><pubDate>Tue, 15 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;之前对矿业不是特别的了解，顶多算耳濡目染入了个门。这几天离职了就在家好好的把这个矿业研究了下。&lt;/p&gt;
 &lt;p&gt;依然只讨论比特币，其他币不在讨论范围。&lt;/p&gt;
 &lt;p&gt;关于矿业的小简介可以看&lt;a href=&quot;https://www.haichaozhu.com/mining-industry-introduction/&quot;&gt;上篇文章&lt;/a&gt;。&lt;/p&gt;
 &lt;h2&gt;原理和假设&lt;/h2&gt;
@@ -40,8 +40,7 @@
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;关于减半：比特币市场基本上是由需求决定价格，价格再来决定产量，供给曲线弹性远低于需求曲线。所以单纯的减半对这个结论并没有影响，如果减半后，即供给减少一半后，市场价格依然为8,000美元的话，说明市场需求也相对增加了一倍，市场产量不变，对矿业没有影响。&lt;/p&gt;
-&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[云算力能不能行]]></title><description><![CDATA[就我能查到的信息来看，云算力产品是 ViaBTC 最早提出的， 暂不说打着云算力幌子骗钱的项目，咱们先看看 market-fit…]]></description><link>https://www.haichaozhu.com/on-cloud-mining/</link><guid isPermaLink="false">https://www.haichaozhu.com/on-cloud-mining/</guid><pubDate>Tue, 15 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;就我能查到的信息来看，云算力产品是 ViaBTC 最早提出的，&lt;/p&gt;
-&lt;p&gt;暂不说打着云算力幌子骗钱的项目，咱们先看看&lt;/p&gt;
+&lt;/blockquote&gt;</content:encoded></item><item><title><![CDATA[云算力能不能行]]></title><description><![CDATA[我大概随手查了几个市场上的云算力挖矿产品， market-fit 角度 云算力进入的是个人投资品这个市场中的虚拟货币投资这个子市场。 并没有云算力市场这么回事。人们对云算力没有需求，人们的需求是投资有回报的标的，投资比特币。 feasibility…]]></description><link>https://www.haichaozhu.com/on-cloud-mining/</link><guid isPermaLink="false">https://www.haichaozhu.com/on-cloud-mining/</guid><pubDate>Tue, 15 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我大概随手查了几个市场上的云算力挖矿产品，&lt;/p&gt;
 &lt;p&gt;market-fit 角度&lt;/p&gt;
 &lt;p&gt;云算力进入的是个人投资品这个市场中的虚拟货币投资这个子市场。&lt;/p&gt;
 &lt;p&gt;并没有云算力市场这么回事。人们对云算力没有需求，人们的需求是投资有回报的标的，投资比特币。&lt;/p&gt;
