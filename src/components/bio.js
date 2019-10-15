@@ -52,6 +52,7 @@ const Bio = () => {
                 marginTop: -14,
                 marginLeft: 20
             }}
+            className="social"
         >
             <ul>
                 <li>
