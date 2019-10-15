@@ -14,3 +14,8 @@
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (max-width: 1199.98px) {}
+
+div,p{
+    text-align: justify;
+    text-justify:inter-ideograph;
+}
