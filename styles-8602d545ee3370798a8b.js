@@ -1,2 +1,2 @@
 (window.webpackJsonp=window.webpackJsonp||[]).push([[1],{190:function(o,n,t){},191:function(o,n,t){},223:function(o,n,t){},224:function(o,n,t){},226:function(o,n,t){},227:function(o,n,t){o.exports={box:"postbox-module--box--28BbU",content:"postbox-module--content--10rwx"}}}]);
-//# sourceMappingURL=styles-9225da966e9142b4b11e.js.map
+//# sourceMappingURL=styles-8602d545ee3370798a8b.js.map

@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/components/postbox.module.css"],"names":["module","exports"],"mappings":"2LACAA,EAAOC,QAAU,CAAC,IAAM,6BAA6B,QAAU","file":"styles-9225da966e9142b4b11e.js","sourcesContent":["// extracted by mini-css-extract-plugin\nmodule.exports = {\"box\":\"postbox-module--box--28BbU\",\"content\":\"postbox-module--content--10rwx\"};"],"sourceRoot":""}
