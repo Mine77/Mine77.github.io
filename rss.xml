@@ -1,8 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Haichao Blog]]></title><description><![CDATA[The place where 真好吃haichao writes when he want.]]></description><link>https://www.haichaozhu.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Oct 2019 03:53:47 GMT</lastBuildDate><item><title><![CDATA[A Quick Recap of 矿业]]></title><description><![CDATA[这篇一共花了二十多分钟，因为内容都比较基础，所以写的比较随心所欲，还请多包涵。矿业本质是一个投（xi）资（qian…]]></description><link>https://www.haichaozhu.com//A Quick Recap of 矿业/</link><guid isPermaLink="false">https://www.haichaozhu.com//A Quick Recap of 矿业/</guid><pubDate>Mon, 14 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Haichao Blog]]></title><description><![CDATA[The place where 真好吃haichao writes when he want.]]></description><link>https://www.haichaozhu.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 15 Oct 2019 03:56:44 GMT</lastBuildDate><item><title><![CDATA[数字挖矿小调研]]></title><description><![CDATA[之前对矿业不是特别的了解，顶多算耳濡目染入了个门。国庆这几天就在家好好的把这个矿业研究了下，结果这一研究还真的发现了些有意思的东西，这篇文章就分享一下咯。目录：（1）矿业简介（2）矿业经济学（3）这里仅讨论比特币的挖矿，其他所有币不在讨论范围内。矿业简介矿业 x…]]></description><link>https://www.haichaozhu.com//挖矿二三事/</link><guid isPermaLink="false">https://www.haichaozhu.com//挖矿二三事/</guid><pubDate>Tue, 15 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;之前对矿业不是特别的了解，顶多算耳濡目染入了个门。国庆这几天就在家好好的把这个矿业研究了下，结果这一研究还真的发现了些有意思的东西，这篇文章就分享一下咯。目录：（1）矿业简介（2）矿业经济学（3）&lt;/p&gt;
+&lt;p&gt;这里仅讨论比特币的挖矿，其他所有币不在讨论范围内。&lt;/p&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;矿业简介&lt;/li&gt;
+&lt;li&gt;矿业 x 经济学&lt;/li&gt;
+&lt;li&gt;云算力不靠谱&lt;/li&gt;
+&lt;li&gt;未来路在何方&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Quick Recap of 矿业]]></title><description><![CDATA[这篇一共花了二十多分钟，因为内容都比较基础，所以写的比较随心所欲，还请多包涵。矿业本质是一个投（xi）资（qian…]]></description><link>https://www.haichaozhu.com//A Quick Recap of 矿业/</link><guid isPermaLink="false">https://www.haichaozhu.com//A Quick Recap of 矿业/</guid><pubDate>Mon, 14 Oct 2019 00:00:00 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;这篇一共花了二十多分钟，因为内容都比较基础，所以写的比较随心所欲，还请多包涵。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;矿业本质是一个投（xi）资（qian）行业。投资人用法币购买矿机，将矿机托管在矿场，产生算力送到矿池，获取币本位收益，最后再完成一次币兑法币的交易。&lt;/p&gt;
 &lt;p&gt;这个过程一共需要至少五个生产要素：矿机，矿场，矿池，托管，交易。&lt;/p&gt;
+&lt;p&gt;这里仅讨论比特币的挖矿，其他所有币不在讨论范围内。&lt;/p&gt;
 &lt;h2&gt;矿机&lt;/h2&gt;
 &lt;p&gt;评估一个矿机主要看两个参数：算力（TH/s）和单位功耗（J/T）。比如比特大陆最新发的 S17+ 就有着 73T 的标称算力和 2920W 的标称功率，单位功耗为 40J/T，算是目前最低的了。&lt;/p&gt;
 &lt;p&gt;直到今年之前，矿机效率的提升基本上都靠芯片制程的提升，从 28nm 到 16nm，再到嘉楠耘智在去年发布的 7nm 芯片 A3207，每次提升基本都能让算力翻倍，功耗减半。但制程这条路目前已经走到头了，毕竟就算是 iPhone 的现在用的也就是 7nm 的芯片。虽然有新闻说明年台积电会开始接受 5nm 的订单，但是理论上 7nm 到 5nm 可能已经不会为矿机带来特别大的性能提升了，而且新工艺价格估计也是贵的一逼，所以整体性价比堪忧。&lt;/p&gt;
