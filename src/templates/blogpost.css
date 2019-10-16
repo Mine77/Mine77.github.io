@@ -19,3 +19,11 @@ div,p{
     text-align: justify;
     text-justify:inter-ideograph;
 }
+
+ul {
+    margin-left: 1.75rem;
+}
+
+blockquote {
+    margin-left: 0;
+}
