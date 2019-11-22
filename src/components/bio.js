@@ -26,21 +26,13 @@ const Bio = () => {
         <div>
             <img
                 src={qrcodeImg}
-                alt="青年真好吃"
+                alt="真好吃"
                 style={{
                     width: 150,
                     height: 150,
                     marginBottom: 0
                 }}
             />
-            <h5
-                style={{
-                    margin: 0,
-                    padding: 6
-                }}
-            >
-                青年真好吃
-            </h5>
         </div>
     )
 
@@ -75,7 +67,7 @@ const Bio = () => {
                         arrowType="round"
                     >
                         <a>
-                            微信公众号
+                            微信
                         </a>
                     </Tippy>
                 </li>
