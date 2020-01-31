@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Haichao Blog]]></title><description><![CDATA[The place where 真好吃haichao writes when he want.]]></description><link>https://www.haichaozhu.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 15:37:55 GMT</lastBuildDate><item><title><![CDATA[共识算法简介]]></title><description><![CDATA[我一直都不太懂共识算法这层面的东西，直到跟 Ted（Hotstuff 算法的一作，Libra…]]></description><link>https://www.haichaozhu.com/consensus-introduction/</link><guid isPermaLink="false">https://www.haichaozhu.com/consensus-introduction/</guid><pubDate>Fri, 31 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我一直都不太懂共识算法这层面的东西，直到跟 &lt;a href=&quot;https://tedyin.com/&quot;&gt;Ted&lt;/a&gt;（Hotstuff 算法的一作，Libra 里面用的那个）一起出差了十几天，耳濡目染的我终于学会了点东西。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Haichao Blog]]></title><description><![CDATA[The place where 真好吃haichao writes when he want.]]></description><link>https://www.haichaozhu.com</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 31 Jan 2020 15:46:53 GMT</lastBuildDate><item><title><![CDATA[共识算法简介]]></title><description><![CDATA[我一直都不太懂共识算法这层面的东西，直到跟 Ted（Hotstuff 算法的一作，Libra…]]></description><link>https://www.haichaozhu.com/consensus-introduction/</link><guid isPermaLink="false">https://www.haichaozhu.com/consensus-introduction/</guid><pubDate>Fri, 31 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;我一直都不太懂共识算法这层面的东西，直到跟 &lt;a href=&quot;https://tedyin.com/&quot;&gt;Ted&lt;/a&gt;（Hotstuff 算法的一作，Libra 里面用的那个）一起出差了十几天，耳濡目染的我终于学会了点东西。&lt;/p&gt;
 &lt;h2&gt;共识算法的起源&lt;/h2&gt;
 &lt;p&gt;共识算法本身要解决的问题是&lt;/p&gt;
 &lt;ul&gt;
@@ -143,7 +143,7 @@
 &lt;p&gt;Hotstuff 中使用了一个叫做 Quorum Certificate （QC）的概念，在某个区块拥有了足够数量的 QC 以后，该区块则可被判定为最终确定；同时算法规定了一个选择 QC 的逻辑，从而保证了算法的安全性；另外还设计了一个 Pacemaker 模块，保证了算法的活性。整个协议可以用几百行代码实现。&lt;/p&gt;
 &lt;h2&gt;写在最后&lt;/h2&gt;
 &lt;p&gt;除此之外还有许多其他的共识算法值得探究，比如 Algorand 在共识协议算法中首次引入了密码学方法等等。&lt;/p&gt;
-&lt;p&gt;这些就等我再学习一下，留在之后写成其他文章吧。&lt;/p&gt;
+&lt;p&gt;这些就等我再学习一下，留在之后写成其他文章吧。 &lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;References&lt;/h3&gt;
 &lt;ul&gt;
