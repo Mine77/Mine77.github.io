@@ -14,6 +14,7 @@ const Bio = () => {
       site {
         siteMetadata {
           author
+          siteUrl
           social {
             twitter
           }
@@ -37,6 +38,7 @@ const Bio = () => {
     )
 
     const { social } = data.site.siteMetadata
+    const { siteUrl } = data.site.siteMetadata
     return (
         <div
             style={{
@@ -70,6 +72,15 @@ const Bio = () => {
                             微信
                         </a>
                     </Tippy>
+                </li>
+                <li>
+                    <a
+                        href={`${siteUrl}/rss.xml`}
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >
+                        RSS
+                    </a>
                 </li>
             </ul>
         </div>
