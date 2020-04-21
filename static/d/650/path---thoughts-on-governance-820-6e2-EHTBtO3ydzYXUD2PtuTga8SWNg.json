@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"description\" on type \"MarkdownRemarkFrontmatter\".","locations":[{"line":17,"column":7}]}],"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"/thoughts-on-governance/","previous":{"fields":{"slug":"/公链经济模型的可持续发展性/"},"frontmatter":{"title":"公链经济模型的可持续发展性"}},"next":null}}

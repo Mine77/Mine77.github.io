@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"description\" on type \"MarkdownRemarkFrontmatter\".","locations":[{"line":17,"column":7}]}],"pageContext":{"isCreatedByStatefulCreatePages":false,"slug":"/btc-as-money-anchor/","previous":{"fields":{"slug":"/thoughts-on-governance/"},"frontmatter":{"title":"Thoughts on Governance"}},"next":null}}
